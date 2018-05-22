@@ -1,13 +1,16 @@
-# S8J2CalculetteEnJs
+### Calculette en JS
 
 #### Exo 1 : L'exercice de chauffe.
 
-Pour éxécuter ces fonctions, je te conseille :
-- d'aller sur ton navigateur, d'ouvrir une page, clique droit sur cette page, inspecter élément.
-- d'ouvrir l'onglet console et d'y coller mes bouts de code, un à un et de les executer.
+Toutes les fonctions se trouvent dans le fichier .js du dossier Exo1. Pour éxécuter ces fonctions, je te conseille :
+- de faire clique droit sur n'importe quelle page de ton navigateur => inspecter élément.
+- d'ouvrir l'onglet console et d'y coller mes bouts de code, un à un, pour les executer et vérifier le résultat.
 
 #### Exo 2 : La calculatrice.
 
-Clone ce repository.
-Ouvres ce nouveau dossier, double-click sur le fichier calculator.html, il s'affiche alors dans ton navigateur.<br/>
-S'il ne l'ouvre pas par défault avec le navigateur, forces-le grâce à click-droit, "ouvrir avec".
+Pour accéder à la calculette :<br/>
+- Cloner ce repository.<br/>
+- Ouvrir ce nouveau dossier.<br/>
+- Aller dans le sous-dossier Exo2.<br/>
+- Ouvrir le fichier calculator.html avec le navigateur.<br/><br/>
+(Pour clear le résultat, il suffit de réactualiser la page) :p
