@@ -40,8 +40,11 @@ table {
 }
 
 body {
-    font-family: 'OpenSans', sans-serif;
-    background: url(../background.jpg) center fixed;
+    font-family: 'OpenSans', sans-serif;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-image: url("binaire.png") ;
 }
@@ -112,7 +115,7 @@ input#number:focus {
     border-top: 1px solid #777;
     width: 34px;
     background: linear-gradient(blue 0%, blue 100%);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .8);
     margin-bottom: 10px;
 }
 
