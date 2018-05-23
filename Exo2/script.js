@@ -32,7 +32,8 @@ function Calculator()
         });
     },
 
-    // EN GROS, On définit quel sera le symbol qui sera utilisé pour la fonction "opération" et on appelle la fonction "opération"
+    // EN GROS, ON DEFINIT QUEL SERA LE SYMBOL UTILISE POUR LA FONCTION "OPERATION" ET ON APPELLE LA FONCTION "OPERATION" EN LUI
+    // METTANT LE BON OPERATEUR EN ARGUMENT 
     this.dispatcher = function(value)
     {
         if ($(this.field).val().indexOf("/") != -1)
@@ -45,7 +46,7 @@ function Calculator()
             this.operation(value, "+");
     },
 
-
+    // EN GROS, CETTE FONCTION PERMET DE FAIRE LES CALCULS
     this.operation = function(value, symbol)
     {
         // On split les nombres dès qu'il y a un symbol et on les stock dans un array
